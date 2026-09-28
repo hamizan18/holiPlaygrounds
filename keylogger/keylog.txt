@@ -1,1 +1,3 @@
-[TAB] [TAB] a s d l a k s l j d a l k s [RETURN] [RETURN] [RETURN] [RETURN] [RETURN] Alt_L [ESCAPE] 
+[SHIFT_L] S e r i b u [SPACE] [RETURN]
+[SHIFT_L] M a l a s [SPACE] j i e r s [RETURN]
+[SHIFT_L] R a h u l 
