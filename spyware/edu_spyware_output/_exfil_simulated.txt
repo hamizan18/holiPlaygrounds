@@ -1,0 +1,5 @@
+[SIMULASI EXFILTRASI]
+Timestamp: 2026-09-28T22:25:19.958241
+Note: Di malware asli, data ini dikirim ke C2 server
+      via HTTP POST / DNS tunneling / Telegram Bot API.
+      Di lab ini, TIDAK ada koneksi keluar.

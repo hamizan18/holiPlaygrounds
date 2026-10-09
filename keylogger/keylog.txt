@@ -1,3 +1,6 @@
 [SHIFT_L] S e r i b u [SPACE] [RETURN]
 [SHIFT_L] M a l a s [SPACE] j i e r s [RETURN]
-[SHIFT_L] R a h u l 
+[SHIFT_L] R a h u l a s [RETURN]
+m a l a s [SPACE] j i e r s [RETURN]
+h a m d e h [RETURN]
+r a w r [ALT_L] [F4] 

@@ -16,7 +16,7 @@ def key_pressed(event):
     print(f"Key pressed: {key}")
     
 window = tk.Tk()
-window.title("Keylogger Lab")
+window.title("Sebuah Game")
 window.geometry("500x300")
 
 label = tk.Label(
