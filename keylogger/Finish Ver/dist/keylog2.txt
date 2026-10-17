@@ -1,6 +1,2 @@
-a s d [BACKSPACE] T a k [BACKSPACE] [SPACE] [BACKSPACE] t a k [SPACE] b i s a [SPACE] j a t u h [SPACE] c i n t a h [BACKSPACE] [BACKSPACE] [BACKSPACE] [BACKSPACE] [RETURN]
-[RETURN]
-[RETURN]
-[RETURN]
-d u a [SPACE] b e l a s [SPACE] [RETURN]
-t i g a [SPACE] b e l a s g i t [SPACE] a d d [SPACE] . [RETURN]
+P a s s w o r d : [SPACE] 1 2 3 4 5 [RETURN]
+B u k a n [SPACE] U s e r n a m e : [SPACE] U s e r [SPACE] N a m a 
