@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Minecraft",
+        "genre": "Sandbox"
+    },
+    {
+        "id": 2,
+        "name": "Valorant",
+        "genre": "First Person Shooting"
+    },
+    {
+        "id": 3,
+        "name": "Stardew Valley",
+        "genre": "Simulation"
+    }
+]

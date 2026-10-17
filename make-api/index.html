@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Library</title>
+</head>
+<body>
+    <h1>Daftar Game</h1>
+
+    <button id="loadBtn">Load Game</button>
+    <p id="status"></p>
+    <ul id="gameList"></ul>
+
+    <script>
+        const button = document.getElementById("loadBtn");
+        const gameList = document.getElementById("gameList");
+        const status = document.getElementById("status");
+
+        button.addEventListener("click", async () => {
+            status.textContent = "Memuat data...";
+            gameList.replaceChildren();
+
+            try {
+                const response = await fetch("http://127.0.0.1:8000/games");
+
+                if (!response.ok) {
+                    throw new Error("Gagal mengambil data API");
+                }
+
+                const games = await response.json();
+
+                games.forEach((game) => {
+                    const item = document.createElement("li");
+                    item.textContent =
+                        `${game.name} - ${game.genre}`;
+
+                    gameList.appendChild(item);
+                });
+
+                status.textContent = "Data berhasil load!";
+            } catch (error) {
+                status.textContent = error.message;
+            }
+        });
+    </script>
+</body>
+</html>
