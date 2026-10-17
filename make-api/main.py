@@ -30,6 +30,3 @@ def getGames():
     
     return games
 
-@app.post("/games")
-def addGame(name):
-    
